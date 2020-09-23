@@ -1,0 +1,29 @@
+﻿capital = 276
+
+#oob = "CAN_1936"
+
+set_research_slots = 3
+set_stability = 0.8
+set_war_support = 0.1
+
+# Starting tech
+set_technology = {
+}
+
+set_politics = {
+	ruling_party = social_conservatism
+	last_election = "1935.10.14"
+	election_frequency = 60
+	elections_allowed = yes
+}
+
+set_popularities = {
+	social_democracy = 0
+	social_liberalism = 0
+	market_liberalism = 0
+	social_conservatism = 98
+	fascism = 1
+	socialism = 0
+	communism = 1
+	authoritarianism = 0
+}

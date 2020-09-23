@@ -1,0 +1,21 @@
+﻿capital = 202 #Kiev
+
+#oob = "UKR_1936"
+
+set_research_slots = 3
+
+# Starting tech
+set_technology = {
+}
+
+
+set_popularities = {
+	social_democracy = 0
+	social_liberalism = 0
+	market_liberalism = 0
+	social_conservatism = 20
+	fascism = 25
+	socialism = 0
+	communism = 5
+	authoritarianism = 50
+}

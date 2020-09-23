@@ -1,0 +1,29 @@
+﻿capital = 10
+
+#oob = "POL_1936"
+
+set_research_slots = 3
+
+# Starting tech
+set_technology = {
+}
+
+
+set_convoys = 10
+
+set_politics = {
+	ruling_party = authoritarianism
+	last_election = "1935.9.8"
+	election_frequency = 36
+	elections_allowed = no
+}
+set_popularities = {
+	social_democracy = 0
+	social_liberalism = 0
+	market_liberalism = 0
+	social_conservatism = 18
+	fascism = 15
+	socialism = 0
+	communism = 2
+	authoritarianism = 65
+}

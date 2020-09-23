@@ -1,0 +1,29 @@
+﻿capital = 741
+
+#oob = "CAM_1936"
+
+set_research_slots = 3
+
+# Starting tech
+# clone of France
+set_technology = {
+}
+
+
+set_politics = {
+	ruling_party = social_conservatism
+	last_election = "1933.2.16"
+	election_frequency = 36
+	elections_allowed = yes
+}
+
+set_popularities = {
+	social_democracy = 0
+	social_liberalism = 0
+	market_liberalism = 0
+	social_conservatism = 40
+	fascism = 0
+	socialism = 0
+	communism = 25
+	authoritarianism = 35
+}

@@ -1,0 +1,26 @@
+﻿capital = 9
+
+#oob = "CZE_1936"
+
+set_technology = {
+}
+
+set_research_slots = 3
+
+set_politics = {
+	ruling_party = social_conservatism
+	last_election = "1935.5.19"
+	election_frequency = 60
+	elections_allowed = yes
+}
+
+set_popularities = {
+	social_democracy = 0
+	social_liberalism = 0
+	market_liberalism = 0
+	social_conservatism = 65
+	fascism = 5
+	socialism = 0
+	communism = 10
+	authoritarianism = 20
+}

@@ -1,0 +1,45 @@
+﻿capital = 64
+
+#oob = "GER_1936"
+
+set_fuel_ratio = 0.8
+
+# Starting tech
+set_technology = {
+}
+add_ideas = {
+}
+
+set_research_slots = 4
+set_convoys = 200
+set_stability = 0.75 
+set_war_support = 0.3
+
+#Trade
+create_import = {
+		resource = tungsten
+		factories = 1
+		exporter = SWE
+}
+
+set_politics = {
+	ruling_party = social_conservatism
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	social_democracy = 0
+	social_liberalism = 0
+	market_liberalism = 0
+	social_conservatism = 75
+	fascism = 1
+	socialism = 0
+	communism = 1
+	authoritarianism = 23
+}
+
+add_namespace = {
+	name = "ger_unit_leader"
+	type = unit_leader
+}

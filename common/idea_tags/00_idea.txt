@@ -1,0 +1,141 @@
+idea_categories = {
+	# ledger can be define for idea > idea slot > idea category
+	# first one overrides the others
+	# multiple ledgers can be defined, in that case will show on all
+	# possible values : army, air, navy, military (shows on all military ledgers), civilian, all (shows up everywhere), hidden (does not show up)
+
+
+	hidden_ideas = {
+		hidden = yes
+	
+		cost = 0
+		removal_cost = -1
+		
+		ledger = hidden
+	}
+
+	country = {
+		national_spirit = yes
+		
+		cost = 0
+		removal_cost = -1
+		
+		ledger = hidden
+	}
+	government_1 = {
+		slot = head_of_government	#정부 수반 - 삭제
+		slot = foreign_minister		#외교통상부 장관 
+		slot = economy_minister		#산업통상부 장관
+		slot = science_minister		#과학부 장관
+		slot = intel_minister		#첩보부 국장 
+		slot = defence_minister		#국방부 장관 
+		#slot = vassal_law			#속국 정책
+		
+		ledger = civilian
+		
+		cost = 150
+		removal_cost = 0
+	}
+	
+	government_2 = {
+		slot = economy							# 시장개입 정도
+		slot = trade_laws						# 무역법
+		slot = economic_mobilisation 			# 경제 동원령
+		slot = fdi_regulations 					#외국인 투자법
+		slot = taxes 							# 세금 정책
+		slot = education_investment_law			#교육 투자 비용
+		
+		ledger = civilian
+		
+		cost = 150
+		removal_cost = 0
+	}
+	
+	government_3 = {
+		slot = security							#보안법
+		slot = press_laws						#언론통제법
+		slot = immigration_policy 				#이민법
+		slot = civilian_factory_level			#민간기업 수준
+		slot = military_factory_level			#군사기업 수준
+		slot = shipyard_level					#항만 수준
+		
+		ledger = civilian
+		
+		cost = 150
+		removal_cost = 0
+	}
+	
+	military_staff = {
+		slot = army_chief 								#육군참모총장
+		slot = navy_chief 								#해군참모총장
+		slot = air_chief								#공군참모총장
+		slot = high_command								#군 사령부
+		slot = law_infantry_equipment_manufacturer		#보병장비
+		slot = law_artillery_manufacturer				#포병장비
+		
+		ledger = civilian
+		
+		cost = 150
+		removal_cost = 0
+	}
+	
+	research_production = {
+		slot = law_armored_car_manufacturer				#장갑차
+		slot = law_tank_manufacturer					#전차
+		slot = naval_manufacturer						#군함
+		slot = law_submarine_manufacturer				#잠수함
+		slot = aircraft_manufacturer					#항공기
+		slot = law_heavy_aircraft_manufacturer			#중 항공기
+		#slot = law_helicopter_manufacturer				#헬기
+		
+		ledger = civilian
+	
+		cost = 150
+		removal_cost = 0
+
+	}
+	
+	military = {
+		slot = mobilization_laws						#동원법
+		slot = female_mobilization_laws					#여성동원법
+		slot = training_laws							#훈련법
+		slot = private_sub_weapon						#병사 보조무장
+		slot = DEFCON  									#데프콘
+		slot = nuclear_weapon_order						#핵무기 발사허가
+		
+		ledger = civilian
+		
+		cost = 150
+		removal_cost = 0
+	}
+	
+	#military_licenses = {
+	#	slot = infantry_eq_design
+	#	slot = armor_eq_design
+	#	slot = naval_eq_design
+	#	slot = air_eq_design
+	#	slot = licenses_wip_eq_design
+	#	slot = licenses_wip2_eq_design
+	#	
+	#	cost = 150
+	#	removal_cost = 0
+	#}
+}
+
+
+slot_ledgers = {
+	army_chief = army
+	navy_chief = navy
+	air_chief = air
+	
+	tank_manufacturer = army
+	naval_manufacturer = navy
+	aircraft_manufacturer = air
+	
+	theorist = invalid # must be overridden
+	high_command = invalid # must be overridden
+	
+	
+	mobilization_laws = civilian
+}
+

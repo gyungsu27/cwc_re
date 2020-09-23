@@ -1,0 +1,190 @@
+﻿l_english:
+ ###이념 이름###
+ #communism             공산주의
+ #socialism             사회주의
+ #social_democracy       사회민주주의
+ #social_liberalism     사회자유주의
+ #market_liberalism     시장자유주의
+ #social_conservatism   사회보수주의
+ #authoritarianism      권위주의
+ #fascism               파시즘
+ ###국가별 정당###
+#####
+ SOV_communism_party:0 "공산당 보수파"            #신공산당
+ SOV_socialism_party:0 "공산당 온건파"            #소련 사회주의당
+ SOV_social_democracy_party:0 "공산당 개혁파"     #소련 공산당
+ SOV_social_liberalism_party:0 "공산당 사회자유파"  #소련 통일민주당'야블로코'
+ SOV_market_liberalism_party:0 "공산당 시장자유파"  #소련 민주당
+ SOV_social_conservatism_party:0 "공산당 사회보수파"  #인민 자유당
+ SOV_authoritarianism_party:0 "공산당 자유파"     #통합소련당
+ SOV_fascism_party:0 "공산당 극우파"              #소련 자유민주당
+ 
+ SOV_communism_party_long:0 "공산당 보수파"            #신공산당
+ SOV_socialism_party_long:0 "공산당 온건파"            #소련 사회주의당
+ SOV_social_democracy_party_long:0 "공산당 개혁파"     #소련 공산당
+ SOV_social_liberalism_party_long:0 "공산당 사회자유파"  #소련 통일민주당'야블로코'
+ SOV_market_liberalism_party_long:0 "공산당 시장자유파"  #소련 민주당
+ SOV_social_conservatism_party_long:0 "공산당 사회보수파"  #인민 자유당
+ SOV_authoritarianism_party_long:0 "공산당 자유파"     #통합소련당
+ SOV_fascism_party_long:0 "공산당 극우파"              #소련 자유민주당
+ 
+ SOV_communism_party_reform:0 "신공산당"
+ SOV_socialism_party_reform:0 "소련 사회주의당"
+ SOV_social_democracy_party_reform:0 "소련 공산당"
+ SOV_social_liberalism_party_reform:0 "소련 통일민주당 야블로코"
+ SOV_market_liberalism_party_reform:0 "소련 민주당"
+ SOV_social_conservatism_party_reform:0 "인민 자유당"
+ SOV_authoritarianism_party_reform:0 "통합소련당"
+ SOV_fascism_party_reform:0 "소련 자유민주당"
+ 
+ SOV_communism_party_reform_long:0 "신공산당"
+ SOV_socialism_party_reform_long:0 "소련 사회주의당"
+ SOV_social_democracy_party_reform_long:0 "소련 공산당"
+ SOV_social_liberalism_party_reform_long:0 "소련 통일민주당 야블로코"
+ SOV_market_liberalism_party_reform_long:0 "소련 민주당"
+ SOV_social_conservatism_party_reform_long:0 "인민 자유당"
+ SOV_authoritarianism_party_reform_long:0 "통합소련당"
+ SOV_fascism_party_reform_long:0 "소련 자유민주당"
+#####
+ USA_communism_party:0 "미국 공산당"
+ USA_socialism_party:0 "미국 민주사회주의자당"
+ USA_social_democracy_party:0 "정의당"
+ USA_social_liberalism_party:0 "민주당"
+ USA_market_liberalism_party:0 "공화당"
+ USA_social_conservatism_party:0 "미국 보수당"
+ USA_authoritarianism_party:0 "미국 해방당"
+ USA_fascism_party:0 "미국자유당"
+ 
+ JAP_communism_party:0 "일본 공산당"
+ JAP_socialism_party:0 "일본 민주사회주의당"
+ JAP_social_democracy_party:0 "일본 민주사회주의당"
+ JAP_social_liberalism_party:0 "일본사회당"
+ JAP_market_liberalism_party:0 "일본 시장자유주의당"
+ JAP_social_conservatism_party:0 "자유민주당"
+ JAP_authoritarianism_party:0 "일본 천황가"
+ JAP_fascism_party:0 "일본을 지키는 국민회의"
+ 
+ FRA_communism_party:0 "프랑스 공산당"
+ FRA_socialism_party:0 "노동자 투쟁"
+ FRA_social_democracy_party:0 "사회당"
+ FRA_social_liberalism_party:0 "좌익 급진당"
+ FRA_market_liberalism_party:0 "프랑스 민주연합"
+ FRA_social_conservatism_party:0 "공화국연합"
+ FRA_authoritarianism_party:0 "프랑스 보수당"
+ FRA_fascism_party:0 "국민연합"
+ 
+ AUS_communism_party:0 "오스트리아 공산당"
+ AUS_democratic_party:0 "오스트리아 사회민주당"
+ AUS_neutrality_party:0 "오스트리아 국민당"
+ AUS_fascism_party:0 "오스트리아 자유당"
+ 
+ POL_communism_party:0 "폴란드 통일노동자당"
+ POL_democratic_party:0 "폴란드 연대자유노조"
+ POL_neutrality_party:0 "폴란드 독립연맹"
+ POL_fascism_party:0 "폴란드 자유당"
+ 
+ GER_communism_party:0 "사회민주당"
+ GER_democratic_party:0 "기독민주연합"
+ GER_neutrality_party:0 "공화당"
+ GER_fascism_party:0 "민족민주당"
+ 
+ DDR_communism_party:0 "사회주의통일당"
+ DDR_democratic_party:0 "독일기독민주연합"
+ DDR_neutrality_party:0 "독일민족민주당"
+ DDR_fascism_party:0 "민족당"
+ 
+ KOR_communism_party:0 "조선 노동당"
+ KOR_socialism_party:0 "민중당"
+ KOR_social_democracy_party:0 "사회민주당"
+ KOR_social_liberalism_party:0 "신한민주당"
+ KOR_market_liberalism_party:0 "신한민주당"
+ KOR_social_conservatism_party:0 "신한민주당"
+ KOR_authoritarianism_party:0 "민주정의당"
+ KOR_fascism_party:0 "하나회"
+ 
+ PRK_communism_party:0 "조선 노동당"
+ PRK_social_democracy_party:0 "조선 사회민주당"
+ PRK_authoritarianism_party:0 "조국통일민주주의전선"
+ PRK_fascism_party:0 "주체파"
+ 
+ RAJ_communism_party:0 "인도 공산당"
+ RAJ_democratic_party:0 "인도국민회의"
+ RAJ_neutrality_party:0 "인도 인민당"
+ RAJ_fascism_party:0 "시브 세나"
+ ENG_communism_party:0 "대브리튼 공산당"
+ ENG_democratic_party:0 "보수당"
+ ENG_neutrality_party:0 "유럽연합반대동맹"
+ ENG_fascism_party:0 "국민전선"
+ 
+ SIA_communism_party:0 "진보당"
+ SIA_democratic_party:0 "태국 국민당"
+ SIA_neutrality_party:0 "국가평화유지위원회"
+ SIA_fascism_party:0 "국가개발당"
+ 
+ MEX_communism_party:0 "혁명 노동자당"
+ MEX_democratic_party:0 "국민민주전선"
+ MEX_neutrality_party:0 "제도혁명당"
+ MEX_fascism_party:0 "멕시코 민주당"
+ 
+ ELS_communism_party:0 "파라분도 마르티 민족해방전선"
+ ELS_democratic_party:0 "국가화합당"
+ ELS_neutrality_party:0 "기독교 민주당"
+ ELS_fascism_party:0 "민족주의 공화 동맹"
+ 
+ BRA_communism_party:0 "노동자당"
+ BRA_democratic_party:0 "국가재건당"
+ BRA_neutrality_party:0 "브라질 민주운동당"
+ BRA_fascism_party:0 "국가질서재건당"
+ 
+ ARG_communism_party:0 "비타협당"
+ ARG_democratic_party:0 "급진시민연합"
+ ARG_neutrality_party:0 "정의당"
+ ARG_fascism_party:0 "국가 재건 과정"
+ 
+ PRC_communism_party:0 "중국공산당"
+ PRC_democratic_party:0 "베이징노동자자치연합회"
+ PRC_neutrality_party:0 "중국 국민당 혁명위원회"
+ PRC_fascism_party:0 "중화 민족당"
+ 
+ ITA_communism_party:0 "이탈리아 사회당"
+ ITA_democratic_party:0 "기독교 민주당"
+ ITA_neutrality_party:0 "이탈리아 인민당"
+ ITA_fascism_party:0 "이탈리아 사회운동당"
+ 
+ CAN_communism_party:0 "신민주당"
+ CAN_democratic_party:0 "진보보수당"
+ CAN_neutrality_party:0 "캐나다 기독교 유산당"
+ CAN_fascism_party:0 "캐나다 개혁당"
+ 
+ CHI_communism_party:0 "민주진보당"
+ CHI_democratic_party:0 "중국국민당"
+ CHI_neutrality_party:0 "중국국민당"
+ CHI_fascism_party:0 "중국청년당"
+ 
+ HKG_communism_party:0 "민주건항협진연맹"
+ HKG_democratic_party:0 "민주당"
+ HKG_neutrality_party:0 "홍콩 보수당"
+ HKG_fascism_party:0 "홍콩 민족전진당"
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

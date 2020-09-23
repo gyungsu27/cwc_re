@@ -1,0 +1,32 @@
+﻿capital = 613 # Nanjing
+
+#oob = "CHI_1936"
+
+set_stability = 0.2
+set_war_support = 0.5
+# Starting tech
+set_technology = {
+}
+
+add_ideas = {
+}
+
+set_convoys = 40
+
+set_politics = {
+	ruling_party = authoritarianism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	social_democracy = 0
+	social_liberalism = 0
+	market_liberalism = 0
+	social_conservatism = 0
+	fascism = 0
+	socialism = 0
+	communism = 0
+	authoritarianism = 100
+}

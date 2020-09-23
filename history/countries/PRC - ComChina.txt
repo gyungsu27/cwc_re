@@ -1,0 +1,33 @@
+﻿capital = 622
+
+#oob = "PRC_1936"
+
+# Starting tech
+set_technology = {
+}
+
+add_ideas = {
+}
+set_stability = 0.6
+set_war_support = 0.7
+
+
+set_politics = {
+	ruling_party = communism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	social_democracy = 0
+	social_liberalism = 0
+	market_liberalism = 0
+	social_conservatism = 0
+	fascism = 0
+	socialism = 0
+	communism = 100
+	authoritarianism = 0
+}
+
+
+add_opinion_modifier = { target = CHI modifier = hostile_status }

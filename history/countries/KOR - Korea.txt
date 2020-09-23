@@ -1,0 +1,26 @@
+﻿capital = 525 #South Korea - Seoul or Busan
+
+#oob = "KOR_1936"
+
+# Starting tech
+set_technology = {
+}
+
+set_convoys = 5
+
+set_politics = {
+	ruling_party = social_conservatism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	social_democracy = 0
+	social_liberalism = 0
+	market_liberalism = 0
+	social_conservatism = 35
+	fascism = 25
+	socialism = 0
+	communism = 30
+	authoritarianism = 10
+}

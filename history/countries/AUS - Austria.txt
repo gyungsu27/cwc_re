@@ -1,0 +1,72 @@
+﻿capital = 4
+
+#oob = "AUS_1936"
+
+set_research_slots = 3
+
+set_technology = {
+}
+
+set_politics = {
+	ruling_party = social_conservatism
+	last_election = "1930.11.9"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	social_democracy = 0
+	social_liberalism = 0
+	market_liberalism = 0
+	social_conservatism = 50
+	fascism = 1
+	socialism = 0
+	communism = 1
+	authoritarianism = 48
+}
+
+set_stability = 0.50
+
+create_country_leader = {
+	name = "커트 슈타이라"
+	desc = "POLITICS_AUS_Kurt_Steyrer_DESC"
+	picture = "POLITICS_AUS_Kurt_Steyrer.dds"
+	expire = "2100.3.1"
+	ideology = social_democracy_subtype_1
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "프란츠 뮐리"
+	desc = "POLITICS_AUS_Franz_Muhri_DESC"
+	picture = "POLITICS_AUS_Franz_Muhri.dds"
+	expire = "2100.3.1"
+	ideology = communism_subtype_1
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "프란츠 프라니츠키"
+	desc = "POLITICS_FRANZ_VRANITZKY_DESC"
+	picture = "Portrait_Franz_Vranitzky.dds"
+	expire = "1997.1.28"
+	ideology = social_democracy_subtype_1
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "오토 스크린지"
+	desc = "POLITICS_AUS_Otto_Scrinzi_DESC"
+	picture = "POLITICS_AUS_Otto_Scrinzi.dds"
+	expire = "2100.3.1"
+	ideology = fascism_subtype_1
+	traits = {
+		
+	}
+}

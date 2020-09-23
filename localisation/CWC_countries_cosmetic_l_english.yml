@@ -1,0 +1,37 @@
+﻿l_english:
+ MUJ_cosmetic_islamic_state_fascism:0 "이슬람 국가"
+ MUJ_cosmetic_islamic_state_neutrality:0 "이슬람 국가"
+ MUJ_cosmetic_islamic_state_democratic:0 "이슬람 국가"
+ MUJ_cosmetic_islamic_state_communism:0 "이슬람 국가"
+ MUJ_cosmetic_islamic_state_fascism_DEF:0 "이슬람 국가"
+ MUJ_cosmetic_islamic_state_neutrality_DEF:0 "이슬람 국가"
+ MUJ_cosmetic_islamic_state_democratic_DEF:0 "이슬람 국가"
+ MUJ_cosmetic_islamic_state_communism_DEF:0 "이슬람 국가"
+ 
+ MUJ_cosmetic_taliban_fascism:0 "탈레반"
+ MUJ_cosmetic_taliban_neutrality:0 "탈레반"
+ MUJ_cosmetic_taliban_democratic:0 "탈레반"
+ MUJ_cosmetic_taliban_communism:0 "탈레반"
+ MUJ_cosmetic_taliban_fascism_DEF:0 "탈레반"
+ MUJ_cosmetic_taliban_neutrality_DEF:0 "탈레반"
+ MUJ_cosmetic_taliban_democratic_DEF:0 "탈레반"
+ MUJ_cosmetic_taliban_communism_DEF:0 "탈레반"
+ 
+ HKG_ENG_autonomy_dominion:0 "영국령 홍콩"
+ HKG_ENG_autonomy_colony:0 "영국령 홍콩"
+ HKG_ENG_autonomy_puppet:0 "영국령 홍콩"
+ HKG_ENG_autonomy_integrated_puppet:0 "영국령 홍콩"
+ 
+ HKG_PRC_autonomy_dominion:0 "홍콩 특별행정구"
+ HKG_PRC_autonomy_colony:0 "홍콩 특별행정구"
+ HKG_PRC_autonomy_puppet:0 "홍콩 특별행정구"
+ HKG_PRC_autonomy_integrated_puppet:0 "홍콩 특별행정구"
+ 
+ HKG_CHI_autonomy_dominion:0 "홍콩 특별행정구"
+ HKG_CHI_autonomy_colony:0 "홍콩 특별행정구"
+ HKG_CHI_autonomy_puppet:0 "홍콩 특별행정구"
+ HKG_CHI_autonomy_integrated_puppet:0 "홍콩 특별행정구"
+ 
+ 
+ 
+ 

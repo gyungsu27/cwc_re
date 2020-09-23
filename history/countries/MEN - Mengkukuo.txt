@@ -1,0 +1,25 @@
+﻿capital = 611
+
+#oob = "MEN_1936"
+
+set_technology = {
+	
+}
+
+
+set_politics = {
+	ruling_party = fascism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	social_democracy = 0
+	social_liberalism = 0
+	market_liberalism = 0
+	social_conservatism = 0
+	fascism = 80
+	socialism = 0
+	communism = 0
+	authoritarianism = 20
+}

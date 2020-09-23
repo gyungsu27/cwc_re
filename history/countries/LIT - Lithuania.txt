@@ -1,0 +1,31 @@
+﻿capital = 11
+
+#oob = "LIT_1936"
+
+set_research_slots = 3
+
+add_ideas = {
+}
+
+set_technology = {
+}
+
+set_convoys = 10
+
+
+set_politics = {
+	ruling_party = authoritarianism
+	last_election = "1926.5.8"
+	election_frequency = 120
+	elections_allowed = no
+}
+set_popularities = {
+	social_democracy = 0
+	social_liberalism = 0
+	market_liberalism = 0
+	social_conservatism = 30
+	fascism = 15
+	socialism = 0
+	communism = 15
+	authoritarianism = 40
+}

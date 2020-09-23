@@ -1,0 +1,417 @@
+ideas = {
+	# MILITARY
+
+
+	head_of_government = {
+
+		PAK_social_democracy_guy = {
+			
+			picture = generic_head_of_government_asia_1
+			
+			allowed = {
+				original_tag = PAK
+			}
+			
+			traits = { social_democracy_reformer }
+
+			do_effect = {
+				NOT = {
+					has_government = social_democracy
+				}
+			}
+			
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		PAK_social_liberalism_guy = {
+			
+			picture = generic_head_of_government_asia_1
+			
+			allowed = {
+				original_tag = PAK
+			}
+			
+			traits = { social_liberalism_reformer }
+
+			do_effect = {
+				NOT = {
+					has_government = social_liberalism
+				}
+			}
+			
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		PAK_market_liberalism_guy = {
+			
+			picture = generic_head_of_government_asia_1
+			
+			allowed = {
+				original_tag = PAK
+			}
+			
+			traits = { market_liberalism_reformer }
+
+			do_effect = {
+				NOT = {
+					has_government = market_liberalism
+				}
+			}
+			
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		PAK_social_conservatism_guy = {
+			
+			picture = generic_head_of_government_asia_1
+			
+			allowed = {
+				original_tag = PAK
+			}
+			
+			traits = { social_conservatism_reformer }
+
+			do_effect = {
+				NOT = {
+					has_government = social_conservatism
+				}
+			}
+			
+			ai_will_do = {
+				factor = 0
+			}
+		}
+
+		PAK_socialism_guy = {
+			
+			picture = generic_head_of_government_asia_3
+			
+			allowed = {
+				original_tag = PAK
+			}
+			
+			traits = { socialism_revolutionary }
+
+			do_effect = {
+				NOT = {
+					has_government = socialism
+				}
+			}
+			
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		PAK_communist_guy = {
+			
+			picture = generic_head_of_government_asia_3
+			
+			allowed = {
+				original_tag = PAK
+			}
+			
+			traits = { communist_revolutionary }
+
+			do_effect = {
+				NOT = {
+					has_government = communism
+				}
+			}
+			
+			ai_will_do = {
+				factor = 0
+			}
+		}
+
+		PAK_fascist_guy = {
+			
+			picture = generic_head_of_government_asia_2
+			
+			allowed = {
+				original_tag = PAK
+			}
+			
+			traits = { fascist_demagogue }
+
+			do_effect = {
+				NOT = {
+					has_government = fascism
+				}
+			}
+			
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		
+		PAK_pot = {
+
+			picture = generic_head_of_government_african_2
+
+			allowed = {
+				original_tag =	PAK
+			}
+			
+			traits = { prince_of_terror }
+		}
+
+		PAK_coi = {
+
+			picture = generic_head_of_government_african_1
+				
+			allowed = {
+				original_tag =	PAK
+			}
+			
+			traits = { captain_of_industry }
+		}
+
+		PAK_stc = {
+
+			picture = generic_head_of_government_african_3
+			
+			allowed = {
+				original_tag =	PAK
+			}
+			
+			traits = { smooth_talking_charmer }
+		}
+	}
+
+	army_chief = {
+
+		PAK_aco2 = {
+
+			picture = generic_army_african_4
+			
+			allowed = {
+				original_tag =	PAK
+			}		
+			
+			traits = { army_chief_organizational_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		PAK_acd2 = {
+
+			picture = generic_army_african_5
+			
+			allowed = {
+				original_tag =	PAK
+			}
+			
+			traits = { army_chief_defensive_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+
+	air_chief = {
+
+		PAK_acr = {
+
+			picture = generic_air_african_3
+			
+			allowed = {
+				original_tag =	PAK
+			}
+			
+			traits = { air_chief_reform_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		PAK_acgs = {
+
+			picture = generic_air_african_3
+			
+			allowed = {
+				original_tag =	PAK
+			}
+			
+			traits = { air_chief_ground_support_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+	}
+
+	navy_chief = {
+
+		PAK_nccr = {
+
+			picture = generic_navy_african_2
+			
+			allowed = {
+				original_tag =	PAK
+			}
+					
+			traits = { navy_chief_commerce_raiding_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		PAK_ncm = {
+
+			picture = generic_navy_african_3
+			
+			allowed = {
+				original_tag =	PAK
+			}
+					
+			traits = { navy_chief_maneuver_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+
+	high_command = {
+
+		PAK_ar = {
+			ledger = army
+			
+			picture = generic_army_african_1
+			
+			allowed = {
+				original_tag =	PAK
+			}
+			
+			traits = { army_regrouping_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		
+		PAK_ai2 = {
+			ledger = army
+
+			picture = generic_army_african_3
+			
+			allowed = {
+				original_tag =	PAK
+			}
+			
+			traits = { army_infantry_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		PAK_aa2 = {
+			ledger = army
+
+			picture = generic_army_african_2
+			
+			allowed = {
+				original_tag =	PAK
+			}
+			
+			traits = { army_armored_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		PAK_acas = {
+			ledger = air
+
+			picture = generic_air_african_2
+			
+			allowed = {
+				original_tag =	PAK
+			}
+			
+			traits = { air_close_air_support_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		PAK_ncs = {
+			ledger = navy
+
+			picture = generic_navy_african_2
+			
+			allowed = {
+				original_tag =	PAK
+			}
+			
+			traits = { navy_capital_ship_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}	
+
+	defence_minister = {
+		PAK_mt = {
+			ledger = army
+			
+			picture = generic_army_african_2
+
+			allowed = {
+				original_tag =	PAK
+			}
+			
+			research_bonus = {
+				land_doctrine = 0.10
+			}
+			
+			traits = { military_theorist }
+		}
+		
+		PAK_nt = {
+			ledger = navy
+
+			picture = generic_navy_african_3
+			
+			allowed = {
+				original_tag =	PAK
+			}
+			
+			research_bonus = {
+				naval_doctrine = 0.10
+			}
+			
+			traits = { naval_theorist }
+		}	
+
+		PAK_awt = {
+			ledger = air
+
+			picture = generic_air_african_2
+			
+			allowed = {
+				original_tag =	PAK
+			}
+			
+			research_bonus = {
+				air_doctrine = 0.10
+			}
+			
+			traits = { air_warfare_theorist }
+		}
+
+	}
+}

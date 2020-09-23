@@ -1,0 +1,21 @@
+﻿capital = 206 #Minsk
+
+#oob = "BLR_1936"
+
+set_research_slots = 3
+
+# Starting tech
+set_technology = {
+}
+
+
+set_popularities = {
+	social_democracy = 0
+	social_liberalism = 0
+	market_liberalism = 0
+	social_conservatism = 15
+	fascism = 5
+	socialism = 0
+	communism = 60
+	authoritarianism = 20
+}

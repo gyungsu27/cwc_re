@@ -1,0 +1,30 @@
+﻿capital = 48
+
+#oob = "BUL_1936"
+
+add_ideas = {
+}
+
+set_technology = {
+}
+
+
+set_convoys = 5
+
+set_politics = {
+	ruling_party = authoritarianism
+	last_election = "1931.6.21"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	social_democracy = 0
+	social_liberalism = 0
+	market_liberalism = 0
+	social_conservatism = 5
+	fascism = 35
+	socialism = 0
+	communism = 0
+	authoritarianism = 60
+}

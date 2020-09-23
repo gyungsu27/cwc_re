@@ -1,0 +1,454 @@
+ideas = {
+	
+	head_of_government = {	# 정부 수반(총리, 왕..등등) - 내정 보너스 관련	
+		# POLITICAL	
+		generic_socialism_revolutionary = {
+			
+			allowed = {
+				NOT = { OR = { tag = GER tag = ENG tag = SOV original_tag = FRA tag = ITA tag = JAP tag = USA tag = AST tag = RAJ tag = CAN tag = SAF tag = CZE tag = ROM tag = CHI tag = MAN tag = MEX tag = HOL original_tag = SPR } }
+				NOT = {
+					has_available_idea_with_traits = { idea = socialism_revolutionary limit = 1 }
+				}
+				
+			}
+
+			available = {
+				if = {
+					limit = { has_dlc = "Man the Guns" }	
+					NOT = { has_autonomy_state = autonomy_supervised_state }
+				}
+			}
+			
+			traits = { socialism_revolutionary }
+	
+			on_add = {
+				#country_event = political.1
+			}
+	
+			do_effect = {
+				NOT = {
+					has_government = socialism
+				}
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		generic_communist_revolutionary = {
+			
+			allowed = {
+				NOT = { OR = { tag = GER tag = ENG tag = SOV original_tag = FRA tag = ITA tag = JAP tag = USA tag = AST tag = RAJ tag = CAN tag = SAF tag = CZE tag = ROM tag = CHI tag = MAN tag = MEX tag = HOL original_tag = SPR } }
+				NOT = {
+					has_available_idea_with_traits = { idea = communist_revolutionary limit = 1 }
+				}
+				
+			}
+
+			available = {
+				if = {
+					limit = { has_dlc = "Man the Guns" }	
+					NOT = { has_autonomy_state = autonomy_supervised_state }
+				}
+			}
+			
+			traits = { communist_revolutionary }
+	
+			on_add = {
+				#country_event = political.1
+			}
+	
+			do_effect = {
+				NOT = {
+					has_government = communism
+				}
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+			
+		generic_social_democracy_reformer = {
+			
+			allowed = {
+				NOT = { OR = { tag = GER tag = ENG tag = SOV original_tag = FRA tag = ITA tag = JAP tag = USA tag = AST tag = RAJ tag = CAN tag = SAF tag = CZE tag = PRC tag = CHI tag = MAN tag = MEX tag = HOL original_tag = SPR } }
+				NOT = {
+					has_available_idea_with_traits = { idea = social_democracy_reformer limit = 1 }
+				}
+				
+			}
+			
+			available = {
+				if = {
+					limit = { has_dlc = "Man the Guns" }	
+					NOT = { has_autonomy_state = autonomy_supervised_state }
+				}
+				if = {
+					limit = { has_dlc = "La Resistance" }	
+					NOT = { original_tag = POR }
+				}
+			}
+
+			
+			traits = { social_democracy_reformer }
+	
+			on_add = {
+				#country_event = political.13
+			}
+	
+			do_effect = {
+				NOT = {
+				OR = {
+					has_government = social_democracy 
+					}
+				}
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+			
+		generic_social_liberalism_reformer = {
+			
+			allowed = {
+				NOT = { OR = { tag = GER tag = ENG tag = SOV original_tag = FRA tag = ITA tag = JAP tag = USA tag = AST tag = RAJ tag = CAN tag = SAF tag = CZE tag = PRC tag = CHI tag = MAN tag = MEX tag = HOL original_tag = SPR } }
+				NOT = {
+					has_available_idea_with_traits = { idea = social_liberalism_reformer limit = 1 }
+				}
+				
+			}
+			
+			available = {
+				if = {
+					limit = { has_dlc = "Man the Guns" }	
+					NOT = { has_autonomy_state = autonomy_supervised_state }
+				}
+				if = {
+					limit = { has_dlc = "La Resistance" }	
+					NOT = { original_tag = POR }
+				}
+			}
+
+			
+			traits = { social_liberalism_reformer }
+	
+			on_add = {
+				#country_event = political.13
+			}
+	
+			do_effect = {
+				NOT = {
+				OR = {
+					has_government = social_liberalism 
+					}
+				}
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+			
+		generic_market_liberalism_reformer = {
+			
+			allowed = {
+				NOT = { OR = { tag = GER tag = ENG tag = SOV original_tag = FRA tag = ITA tag = JAP tag = USA tag = AST tag = RAJ tag = CAN tag = SAF tag = CZE tag = PRC tag = CHI tag = MAN tag = MEX tag = HOL original_tag = SPR } }
+				NOT = {
+					has_available_idea_with_traits = { idea = market_liberalism_reformer limit = 1 }
+				}
+				
+			}
+			
+			available = {
+				if = {
+					limit = { has_dlc = "Man the Guns" }	
+					NOT = { has_autonomy_state = autonomy_supervised_state }
+				}
+				if = {
+					limit = { has_dlc = "La Resistance" }	
+					NOT = { original_tag = POR }
+				}
+			}
+
+			
+			traits = { market_liberalism_reformer }
+	
+			on_add = {
+				#country_event = political.13
+			}
+	
+			do_effect = {
+				NOT = {
+				OR = {
+					has_government = market_liberalism 
+					}
+				}
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+			
+		generic_social_conservatism_reformer = {
+			
+			allowed = {
+				NOT = { OR = { tag = GER tag = ENG tag = SOV original_tag = FRA tag = ITA tag = JAP tag = USA tag = AST tag = RAJ tag = CAN tag = SAF tag = CZE tag = PRC tag = CHI tag = MAN tag = MEX tag = HOL original_tag = SPR } }
+				NOT = {
+					has_available_idea_with_traits = { idea = social_conservatism_reformer limit = 1 }
+				}
+				
+			}
+			
+			available = {
+				if = {
+					limit = { has_dlc = "Man the Guns" }	
+					NOT = { has_autonomy_state = autonomy_supervised_state }
+				}
+				if = {
+					limit = { has_dlc = "La Resistance" }	
+					NOT = { original_tag = POR }
+				}
+			}
+
+			
+			traits = { social_conservatism_reformer }
+	
+			on_add = {
+				#country_event = political.13
+			}
+	
+			do_effect = {
+				NOT = {
+				OR = {
+					has_government = social_conservatism 
+					}
+				}
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		
+		generic_fascist_demagogue = {
+			
+			allowed = {
+				NOT = { OR = { tag = GER tag = ENG tag = SOV original_tag = FRA tag = ITA tag = JAP tag = USA tag = AST tag = RAJ tag = CAN tag = SAF tag = ROM tag = CZE tag = PRC tag = CHI tag = MAN tag = MEX tag = HOL original_tag = SPR original_tag = POR } }
+				NOT = {
+					has_available_idea_with_traits = { idea = fascist_demagogue limit = 1 }
+				}
+
+			}
+			
+			available = {
+				if = {
+					limit = { has_dlc = "Man the Guns" }	
+					NOT = { has_autonomy_state = autonomy_supervised_state }
+				}				
+			}
+			
+			traits = { fascist_demagogue }
+	
+			on_add = {
+				#country_event = political.7
+			}
+	
+			do_effect = {
+				NOT = {
+					has_government = fascism
+				}
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	}
+	
+	foreign_minister = {	# 외교통상부 장관 - 외교 보너스 및 동맹 관련
+		generic_foreign_minister = {
+			
+			allowed = {
+				#NOT = { OR = { tag = GER tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = USA tag = AST tag = RAJ tag = CAN tag = SAF tag = CZE tag = ROM tag = CHI tag = MAN tag = MEX tag = HOL } }
+				#NOT = {
+				#	has_available_idea_with_traits = { idea = generic_foreign_minister limit = 1 }
+				#}
+				
+			}
+
+			available = {
+			}
+			
+			traits = { compassionate_gentleman }
+		}
+	}
+	
+	economy_minister = {	# 산업통상부 장관 - 산업, 소비재 관련
+
+		generic_captain_of_industry = {
+
+			allowed = {
+				#OR = { original_tag = KOR original_tag = SER original_tag = ICE original_tag = SYR original_tag = LEB original_tag = EGY original_tag = JOR original_tag = CRO original_tag = LBA original_tag = INS original_tag = MAL original_tag = AZR original_tag = UKR original_tag = GEO original_tag = ARM original_tag = VIN original_tag = CAM original_tag = MNT original_tag = LIB original_tag = LAO original_tag = PAL }
+			}
+			
+			available = {
+			}
+			traits = { captain_of_industry }
+		}
+		
+		generic_fortification_engineer = {
+
+			allowed = {
+				#OR = { original_tag = KOR original_tag = SER original_tag = ICE original_tag = SYR original_tag = LEB original_tag = EGY original_tag = JOR original_tag = CRO original_tag = LBA original_tag = INS original_tag = MAL original_tag = AZR original_tag = UKR original_tag = GEO original_tag = ARM original_tag = VIN original_tag = CAM original_tag = MNT original_tag = LIB original_tag = LAO original_tag = PAL }
+			}
+			
+			available = {
+			}
+			traits = { fortification_engineer }
+		}
+
+		generic_war_industrialist = {
+
+			allowed = {
+				#OR = { original_tag = KOR original_tag = SER original_tag = ICE original_tag = SYR original_tag = LEB original_tag = EGY original_tag = JOR original_tag = CRO original_tag = LBA original_tag = INS original_tag = MAL original_tag = AZR original_tag = UKR original_tag = GEO original_tag = ARM original_tag = VIN original_tag = CAM original_tag = MNT original_tag = LIB original_tag = LAO original_tag = PAL }
+			}
+			
+			available = {
+			}
+			traits = { war_industrialist }
+		}
+	}
+	
+	science_minister = {	# 과학통상부 장관 - 공학, 과학 관련
+	
+		generic_industrial_concern = {
+			
+			picture = generic_industrial_concern_1
+
+			allowed = {
+				NOT = {
+					has_available_idea_with_traits = { idea = industrial_concern limit = 1 }
+				}
+			}
+			
+			cost = 150
+			removal_cost = 10
+			
+			research_bonus = {
+				industry = 0.10
+			}
+			
+			traits = { industrial_concern }
+		}
+
+		generic_electronics_concern = {
+			
+			picture = generic_electronics_concern_1
+
+			allowed = {
+				NOT = {
+					has_available_idea_with_traits = { idea = electronics_concern limit = 1 }
+				}
+			}
+			
+			cost = 150
+			removal_cost = 10
+			
+			research_bonus = {
+				electronics = 0.10
+			}
+			
+			traits = { electronics_concern }
+		}
+	}
+	
+	intel_minister = {	# 첩보국장 - 곧 나올 dlc 첩보 효과 부분
+
+		generic_head_of_intelligence = {
+			allowed = { 
+				has_dlc = "La Resistance"
+				# china gets a special one via focus
+				NOT = { original_tag = CHI }
+			}
+			visible = {
+				OR = {
+					has_idea = generic_head_of_intelligence
+					NOT = {
+						OR = {
+							# ignore if a (historical) minister already available
+							has_allowed_idea_with_traits = { 
+								idea = head_of_intelligence 
+								limit = 1
+								ignore = generic_head_of_intelligence
+							}
+							# ignore if the other one is already taken
+							has_idea_with_trait = head_of_intelligence
+						}
+					}
+				}
+			}
+			available = {
+				has_intelligence_agency = yes
+			}
+			traits = { head_of_intelligence }
+
+			ai_will_do = {
+				factor = 1
+				modifier = {
+					has_intelligence_agency = no
+					factor = 0
+				}
+			}
+
+		}
+	}
+	
+	defence_minister = {	# 국방장관 - 제한적인 교리적 버프
+
+		generic_military_theorist = {
+			ledger = army
+			
+			allowed = {
+				OR = { original_tag = KOR original_tag = SER original_tag = ICE original_tag = SYR original_tag = LEB original_tag = EGY original_tag = JOR original_tag = CRO original_tag = LBA original_tag = INS original_tag = MAL original_tag = AZR original_tag = UKR original_tag = GEO original_tag = ARM original_tag = VIN original_tag = CAM original_tag = MNT original_tag = LIB original_tag = LAO original_tag = PAL }
+			}
+			
+			research_bonus = {
+				land_doctrine = 0.10
+			}
+			
+			traits = { military_theorist }
+		}
+	
+		generic_naval_theorist = {
+			ledger = navy
+			
+			allowed = {
+				OR = { original_tag = KOR original_tag = SER original_tag = ICE original_tag = SYR original_tag = LEB original_tag = EGY original_tag = JOR original_tag = CRO original_tag = LBA original_tag = INS original_tag = MAL original_tag = AZR original_tag = UKR original_tag = GEO original_tag = ARM original_tag = VIN original_tag = CAM original_tag = MNT original_tag = LIB original_tag = LAO original_tag = PAL }
+			}
+			
+			research_bonus = {
+				naval_doctrine = 0.10
+			}
+			
+			traits = { naval_theorist }
+		}
+
+		generic_air_warfare_theorist = {
+			ledger = air
+			
+			allowed = {
+				OR = { original_tag = KOR original_tag = SER original_tag = ICE original_tag = SYR original_tag = LEB original_tag = EGY original_tag = JOR original_tag = CRO original_tag = LBA original_tag = INS original_tag = MAL original_tag = AZR original_tag = UKR original_tag = GEO original_tag = ARM original_tag = VIN original_tag = CAM original_tag = MNT original_tag = LIB original_tag = LAO original_tag = PAL }
+			}
+			
+			research_bonus = {
+				air_doctrine = 0.10
+			}
+			
+			traits = { air_warfare_theorist }
+		}
+	}
+	
+}

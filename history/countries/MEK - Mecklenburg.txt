@@ -1,0 +1,31 @@
+﻿capital = 61
+
+set_research_slots = 3
+set_convoys = 50
+set_stability = 0.75
+
+# Starting tech
+set_technology = {
+}
+
+add_ideas = {
+}
+
+
+set_politics = {
+	ruling_party = authoritarianism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = yes
+
+}
+set_popularities = {
+	social_democracy = 0
+	social_liberalism = 0
+	market_liberalism = 0
+	social_conservatism = 30
+	fascism = 10
+	socialism = 0
+	communism = 60
+	authoritarianism = 0
+}

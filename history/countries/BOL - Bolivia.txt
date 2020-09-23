@@ -1,0 +1,26 @@
+﻿capital = 302
+
+#oob = "BOL_1936"
+
+# Starting tech
+set_technology = {
+}
+
+
+set_politics = {
+	ruling_party = authoritarianism
+	last_election = "1934.11.11"
+	election_frequency = 72
+	elections_allowed = yes
+}
+
+set_popularities = {
+	social_democracy = 0
+	social_liberalism = 0
+	market_liberalism = 0
+	social_conservatism = 0
+	fascism = 0
+	socialism = 0
+	communism = 0
+	authoritarianism = 100
+}

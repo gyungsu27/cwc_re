@@ -1,0 +1,39 @@
+﻿capital = 285
+
+#oob = "AST_1936"
+set_stability = 0.8
+set_war_support = 0.3
+
+set_convoys = 100
+# Starting tech
+set_technology = {
+}
+
+set_politics = {
+	ruling_party = social_conservatism
+	last_election = "1934.9.15"
+	election_frequency = 36
+	elections_allowed = yes
+}
+
+set_popularities = {
+	social_democracy = 0
+	social_liberalism = 0
+	market_liberalism = 0
+	social_conservatism = 98
+	fascism = 0
+	socialism = 0
+	communism = 2
+	authoritarianism = 0
+}
+
+create_country_leader = {
+	name = "밥 호크"
+	desc = "POLITICS_AST_Bob_Hawke_DESC"
+	picture = "POLITICS_AST_Bob_Hawke.dds"
+	expire = "2100.1.1"
+	ideology = social_democracy_subtype_1
+	traits = {
+		#
+	}
+}

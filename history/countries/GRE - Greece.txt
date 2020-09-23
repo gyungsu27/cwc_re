@@ -1,0 +1,32 @@
+﻿capital = 47
+
+#oob = "GRE_1936"
+
+set_research_slots = 3
+
+add_ideas = {
+}
+
+set_technology = {
+}
+
+set_stability = 0.75
+set_convoys = 10
+
+
+set_politics = {
+	ruling_party = authoritarianism
+	last_election = "1935.6.9"
+	election_frequency = 12
+	elections_allowed = yes # none after offset 1
+}
+set_popularities = {
+	social_democracy = 0
+	social_liberalism = 0
+	market_liberalism = 0
+	social_conservatism = 10
+	fascism = 23
+	socialism = 0
+	communism = 2
+	authoritarianism = 65
+}

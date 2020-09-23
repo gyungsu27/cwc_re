@@ -1,0 +1,48 @@
+﻿capital = 44
+
+#OOB = "ALB_1936"
+
+set_technology = {
+}
+
+set_politics = {
+	ruling_party = authoritarianism
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	social_democracy = 0
+	social_liberalism = 0
+	market_liberalism = 0
+	social_conservatism = 0
+	fascism = 0
+	socialism = 0
+	communism = 0
+	authoritarianism = 100
+}
+
+set_convoys = 5
+
+create_country_leader = {
+	name = "라미즈 알리아"
+	desc = ""
+	picture = "portrait_alb_ramiz_alia.dds"
+	expire = "2010.1.1"
+	ideology = communism_subtype_1
+	traits = {
+		#
+	}
+}
+
+create_field_marshal = {
+	name = "Xhemal Aranitasi"
+	portrait_path = "gfx/leaders/Europe/POLITICS_Europe_Generic_land_3.dds"
+	traits = { }
+	skill = 2
+	attack_skill = 1
+    defense_skill = 3
+    planning_skill = 2
+    logistics_skill = 1
+}

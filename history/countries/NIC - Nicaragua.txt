@@ -1,0 +1,27 @@
+﻿capital = 317
+
+#oob = "NIC_1936"
+
+# Starting tech
+set_technology = {
+}
+set_war_support = 0.1
+set_convoys = 10
+
+
+set_politics = {
+	ruling_party = authoritarianism
+	last_election = "1934.11.8"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	social_democracy = 0
+	social_liberalism = 0
+	market_liberalism = 0
+	social_conservatism = 15
+	fascism = 5
+	socialism = 0
+	communism = 10
+	authoritarianism = 70
+}

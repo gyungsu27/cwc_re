@@ -1,0 +1,31 @@
+﻿capital = 49
+
+#oob = "TUR_1936"
+
+set_research_slots = 3
+set_convoys = 20
+set_stability = 0.55
+
+add_ideas = {
+}
+
+set_technology = {
+}
+
+
+set_politics = {
+	ruling_party = authoritarianism
+	last_election = "1935.2.8"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	social_democracy = 0
+	social_liberalism = 0
+	market_liberalism = 0
+	social_conservatism = 10
+	fascism = 0
+	socialism = 0
+	communism = 0
+	authoritarianism = 90
+}
