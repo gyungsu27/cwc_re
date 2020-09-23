@@ -18,9 +18,157 @@ spriteTypes = {
 ###################################################
 
 #CWC 추가
+############
+#	모듈 슬롯 이미지
+#------------------------------------------------------------------------------------------
+#상부 슬롯
+	spriteType = {
+		name = "GFX_EMSI_ship_torpedo_slot"
+		textureFile = "gfx/interface/equipmentdesigner/naval/module_slots/icons/torpedo.dds"
+	}
+	spriteType = {
+		name = "GFX_EMSI_ship_light_deck_space_slot"
+		textureFile = "gfx/interface/equipmentdesigner/naval/module_slots/icons/deck_space.dds"
+	}
+	spriteType = {
+		name = "GFX_EMSI_ship_heavy_deck_space_slot"
+		textureFile = "gfx/interface/equipmentdesigner/naval/module_slots/icons/deck_space.dds"
+	}
+#------------------------------------------------------------------------------------------
+#하부 슬롯
+	spriteType = {
+		name = "GFX_EMSI_fixed_ship_anti_air_slot_1"
+		textureFile = "gfx/interface/equipmentdesigner/naval/module_slots/icons/anti_air.dds"
+	}
+	spriteType = {
+		name = "GFX_EMSI_fixed_ship_anti_air_slot_2"
+		textureFile = "gfx/interface/equipmentdesigner/naval/module_slots/icons/anti_air.dds"
+	}
+	spriteType = {
+		name = "GFX_EMSI_fixed_ship_sonar_slot"
+		textureFile = "gfx/interface/equipmentdesigner/naval/module_slots/icons/radar.dds"
+	}
+	spriteType = {
+		name = "GFX_EMSI_fixed_ship_depth_charge_slot"
+		textureFile = "gfx/interface/equipmentdesigner/naval/module_slots/icons/radar.dds"
+	}
+	spriteType = {
+		name = "GFX_EMSI_fixed_ship_Snorkel_slot"
+		textureFile = "gfx/interface/equipmentdesigner/naval/module_slots/icons/engine.dds"
+	}
+	spriteType = {
+		name = "GFX_EMSI_fixed_ship_extra_fuel_tanks_slot"
+		textureFile = "gfx/interface/equipmentdesigner/naval/module_slots/icons/engine.dds"
+	}
+	spriteType = {
+		name = "GFX_EMSI_fixed_sub_extra_fuel_tanks_slot"
+		textureFile = "gfx/interface/equipmentdesigner/naval/module_slots/icons/engine.dds"
+	}
+	spriteType = {
+		name = "GFX_EMSI_fixed_sub_ship_submarine_acoustic_tiles_slot"
+		textureFile = "gfx/interface/equipmentdesigner/naval/module_slots/icons/radar.dds"
+	}
+	spriteType = {
+		name = "GFX_EMSI_fixed_ship_fire_control_system_slot"
+		textureFile = "gfx/interface/equipmentdesigner/naval/module_slots/icons/fire_control_system.dds"
+	}
+	spriteType = {
+		name = "GFX_EMSI_fixed_ship_anti_air_slot_1"
+		textureFile = "gfx/interface/equipmentdesigner/naval/module_slots/icons/anti_air.dds"
+	}
+	spriteType = {
+		name = "GFX_EMSI_fixed_ship_anti_air_slot_2"
+		textureFile = "gfx/interface/equipmentdesigner/naval/module_slots/icons/anti_air.dds"
+	}
+	spriteType = {
+		name = "GFX_EMSI_fixed_ship_air_radar_slot"
+		textureFile = "gfx/interface/equipmentdesigner/naval/module_slots/icons/radar.dds"
+	}
+	spriteType = {
+		name = "GFX_EMSI_fixed_ship_battery_secondaries_slot"
+		textureFile = "gfx/interface/equipmentdesigner/naval/module_slots/icons/secondaries.dds"
+	}
+	spriteType = {
+		name = "GFX_EMSI_ship_anti_air_slot"
+		textureFile = "gfx/interface/equipmentdesigner/naval/module_slots/icons/anti_air.dds"
+	}
+#------------------------------------------------------------------------------------------
+#기타 슬롯
+	spriteType = {
+		name = "GFX_EMSI_third_ship_anti_air_slot_1"
+		textureFile = "gfx/interface/equipmentdesigner/naval/module_slots/icons/anti_air.dds"
+	}
+	spriteType = {
+		name = "GFX_EMSI_third_ship_anti_air_slot_2"
+		textureFile = "gfx/interface/equipmentdesigner/naval/module_slots/icons/anti_air.dds"
+	}
+	spriteType = {
+		name = "GFX_EMSI_third_ship_battery_slot"
+		textureFile = "gfx/interface/equipmentdesigner/naval/module_slots/icons/battery.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_EMSI_third_ship_secondaries_slot"
+		textureFile = "gfx/interface/equipmentdesigner/naval/module_slots/icons/secondaries.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_EMSI_third_ship_anti_air_slot"
+		textureFile = "gfx/interface/equipmentdesigner/naval/module_slots/icons/anti_air.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_EMSI_third_ship_torpedo_slot"
+		textureFile = "gfx/interface/equipmentdesigner/naval/module_slots/icons/torpedo.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_EMSI_ship_deck_space_slot"
+		textureFile = "gfx/interface/equipmentdesigner/naval/module_slots/icons/deck_space.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_EMSI_third_ship_radar_slot"
+		textureFile = "gfx/interface/equipmentdesigner/naval/module_slots/icons/radar.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_EMSI_third_ship_fire_control_system_slot"
+		textureFile = "gfx/interface/equipmentdesigner/naval/module_slots/icons/fire_control_system.dds"
+	}
+	spriteType = {
+		name = "GFX_EMSI_third_ship_sonar_slot"
+		textureFile = "gfx/interface/equipmentdesigner/naval/module_slots/icons/radar.dds"
+	}
+	spriteType = {
+		name = "GFX_EMSI_third_ship_depth_charge_slot"
+		textureFile = "gfx/interface/equipmentdesigner/naval/module_slots/icons/radar.dds"
+	}
+	spriteType = {
+		name = "GFX_EMSI_third_ship_mine_layer_slot"
+		textureFile = "gfx/interface/equipmentdesigner/naval/module_slots/icons/radar.dds"
+	}
+	spriteType = {
+		name = "GFX_EMSI_third_ship_mine_sweeper_slot"
+		textureFile = "gfx/interface/equipmentdesigner/naval/module_slots/icons/radar.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_EMSI_third_ship_engine_slot"
+		textureFile = "gfx/interface/equipmentdesigner/naval/module_slots/icons/engine.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_EMSI_third_ship_armor_slot"
+		textureFile = "gfx/interface/equipmentdesigner/naval/module_slots/icons/armor.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_EMSI_third_ship_aegis_combat_system_slot"
+		textureFile = "gfx/interface/equipmentdesigner/naval/module_slots/icons/fire_control_system.dds"
+	}
+	
 ### Category Icon
-
-
 #대잠헬기
 	spriteType = {
 		name = "GFX_SMI_ship_airplane_launcher"
@@ -537,6 +685,45 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_SMI_ship_engine_light_8"
 		textureFile = "gfx/interface/equipmentdesigner/naval/modules/ship_engine_light_icn_8.dds"
+	}
+#--------------------------------------------------------------------------------------------------------
+#중형 엔진
+	spriteType = {
+		name = "GFX_SMI_ship_engine_middle"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/ship_engine_middle_icn.dds"
+	}
+	###
+	spriteType = {
+		name = "GFX_SMI_ship_engine_middle_1"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/ship_engine_middle_icn_1.dds"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_engine_middle_2"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/ship_engine_middle_icn_2.dds"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_engine_middle_3"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/ship_engine_middle_icn_3.dds"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_engine_middle_4"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/ship_engine_middle_icn_4.dds"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_engine_middle_5"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/ship_engine_middle_icn_5.dds"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_engine_middle_6"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/ship_engine_middle_icn_6.dds"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_engine_middle_7"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/ship_engine_middle_icn_7.dds"
+	}
+	spriteType = {
+		name = "GFX_SMI_ship_engine_middle_8"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/ship_engine_middle_icn_8.dds"
 	}
 #--------------------------------------------------------------------------------------------------------
 #표준 엔진
@@ -2897,90 +3084,6 @@ spriteTypes = {
 		name = "GFX_SMI_sub_extra_fuel_tanks_1"
 		textureFile = "gfx/interface/equipmentdesigner/naval/modules/sub_extra_fuel_tanks_icn_1.dds"
 	}
-#------------------------------------------------------------------------------------------
-	
-	spriteType = {
-		name = "GFX_EMSI_ship_torpedo_slot"
-		textureFile = "gfx/interface/equipmentdesigner/naval/module_slots/icons/torpedo.dds"
-	}
-	spriteType = {
-		name = "GFX_EMSI_ship_light_deck_space_slot"
-		textureFile = "gfx/interface/equipmentdesigner/naval/module_slots/icons/deck_space.dds"
-	}
-	spriteType = {
-		name = "GFX_EMSI_ship_heavy_deck_space_slot"
-		textureFile = "gfx/interface/equipmentdesigner/naval/module_slots/icons/deck_space.dds"
-	}
-	spriteType = {
-		name = "GFX_EMSI_fixed_ship_anti_air_slot_1"
-		textureFile = "gfx/interface/equipmentdesigner/naval/module_slots/icons/anti_air.dds"
-	}
-	spriteType = {
-		name = "GFX_EMSI_fixed_ship_anti_air_slot_2"
-		textureFile = "gfx/interface/equipmentdesigner/naval/module_slots/icons/anti_air.dds"
-	}
-#------------------------------------------------------------------------------------------
-	spriteType = {
-		name = "GFX_EMSI_third_ship_anti_air_slot_1"
-		textureFile = "gfx/interface/equipmentdesigner/naval/module_slots/icons/anti_air.dds"
-	}
-	spriteType = {
-		name = "GFX_EMSI_third_ship_anti_air_slot_2"
-		textureFile = "gfx/interface/equipmentdesigner/naval/module_slots/icons/anti_air.dds"
-	}
-	spriteType = {
-		name = "GFX_EMSI_third_ship_battery_slot"
-		textureFile = "gfx/interface/equipmentdesigner/naval/module_slots/icons/battery.dds"
-	}
-	
-	spriteType = {
-		name = "GFX_EMSI_third_ship_secondaries_slot"
-		textureFile = "gfx/interface/equipmentdesigner/naval/module_slots/icons/secondaries.dds"
-	}
-	
-	spriteType = {
-		name = "GFX_EMSI_third_ship_anti_air_slot"
-		textureFile = "gfx/interface/equipmentdesigner/naval/module_slots/icons/anti_air.dds"
-	}
-	
-	spriteType = {
-		name = "GFX_EMSI_third_ship_torpedo_slot"
-		textureFile = "gfx/interface/equipmentdesigner/naval/module_slots/icons/torpedo.dds"
-	}
-	
-	spriteType = {
-		name = "GFX_EMSI_ship_deck_space_slot"
-		textureFile = "gfx/interface/equipmentdesigner/naval/module_slots/icons/deck_space.dds"
-	}
-	
-	spriteType = {
-		name = "GFX_EMSI_third_ship_radar_slot"
-		textureFile = "gfx/interface/equipmentdesigner/naval/module_slots/icons/radar.dds"
-	}
-	
-	spriteType = {
-		name = "GFX_EMSI_third_ship_fire_control_system_slot"
-		textureFile = "gfx/interface/equipmentdesigner/naval/module_slots/icons/fire_control_system.dds"
-	}
-	spriteType = {
-		name = "GFX_EMSI_third_ship_sonar_slot"
-		textureFile = "gfx/interface/equipmentdesigner/naval/module_slots/icons/radar.dds"
-	}
-	
-	spriteType = {
-		name = "GFX_EMSI_third_ship_engine_slot"
-		textureFile = "gfx/interface/equipmentdesigner/naval/module_slots/icons/engine.dds"
-	}
-	
-	spriteType = {
-		name = "GFX_EMSI_third_ship_armor_slot"
-		textureFile = "gfx/interface/equipmentdesigner/naval/module_slots/icons/armor.dds"
-	}
-	
-	spriteType = {
-		name = "GFX_EMSI_third_ship_aegis_combat_system_slot"
-		textureFile = "gfx/interface/equipmentdesigner/naval/module_slots/icons/fire_control_system.dds"
-	}
 ######## Deck Space	
 
 	### Category Icon & Module Icon
@@ -2992,40 +3095,6 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_SMI_ship_heavy_deck_space"
 		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/deck_space_icn.dds"
-	}
-	###
-	spriteType = {
-		name = "GFX_EMSI_fixed_ship_sonar_slot"
-		textureFile = "gfx/interface/equipmentdesigner/naval/module_slots/icons/radar.dds"
-	}
-	
-	spriteType = {
-		name = "GFX_EMSI_fixed_ship_Snorkel_slot"
-		textureFile = "gfx/interface/equipmentdesigner/naval/module_slots/icons/engine.dds"
-	}
-	spriteType = {
-		name = "GFX_EMSI_fixed_ship_extra_fuel_tanks_slot"
-		textureFile = "gfx/interface/equipmentdesigner/naval/module_slots/icons/engine.dds"
-	}
-	spriteType = {
-		name = "GFX_EMSI_fixed_sub_extra_fuel_tanks_slot"
-		textureFile = "gfx/interface/equipmentdesigner/naval/module_slots/icons/engine.dds"
-	}
-	spriteType = {
-		name = "GFX_EMSI_fixed_sub_ship_submarine_acoustic_tiles_slot"
-		textureFile = "gfx/interface/equipmentdesigner/naval/module_slots/icons/radar.dds"
-	}
-	spriteType = {
-		name = "GFX_EMSI_fixed_ship_fire_control_system_slot"
-		textureFile = "gfx/interface/equipmentdesigner/naval/module_slots/icons/fire_control_system.dds"
-	}
-	spriteType = {
-		name = "GFX_EMSI_fixed_ship_anti_air_slot_1"
-		textureFile = "gfx/interface/equipmentdesigner/naval/module_slots/icons/anti_air.dds"
-	}
-	spriteType = {
-		name = "GFX_EMSI_fixed_ship_anti_air_slot_2"
-		textureFile = "gfx/interface/equipmentdesigner/naval/module_slots/icons/anti_air.dds"
 	}
 #------------------------------------------------------------------------------------------
 #연료
@@ -3198,20 +3267,6 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_SMI_ship_blast_hardened_bulkhead_heavy_5"
 		textureFile = "gfx/interface/equipmentdesigner/naval/modules/ship_blast_hardened_bulkhead_heavy_icn_5.dds"
-	}
-#------------------------------------------------------------------------------------------
-#	모듈 슬롯 이미지
-	spriteType = {
-		name = "GFX_EMSI_fixed_ship_air_radar_slot"
-		textureFile = "gfx/interface/equipmentdesigner/naval/module_slots/icons/radar.dds"
-	}
-	spriteType = {
-		name = "GFX_EMSI_fixed_ship_battery_secondaries_slot"
-		textureFile = "gfx/interface/equipmentdesigner/naval/module_slots/icons/secondaries.dds"
-	}
-	spriteType = {
-		name = "GFX_EMSI_ship_anti_air_slot"
-		textureFile = "gfx/interface/equipmentdesigner/naval/module_slots/icons/anti_air.dds"
 	}
 	
 	

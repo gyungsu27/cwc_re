@@ -1,0 +1,23 @@
+state=
+{
+	id=794
+	name="STATE1_794"
+	manpower = 3063504
+	
+	state_category = town
+	history=
+	{
+		owner = KOR
+		buildings = {
+			infrastructure = 5
+			}
+
+		add_core_of = KOR
+		add_core_of = PRK
+		add_claim_by = PRK
+
+	}
+	provinces={
+		7175 7204 11992
+	}
+}

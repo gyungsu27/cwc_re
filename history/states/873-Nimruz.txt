@@ -1,0 +1,22 @@
+state={
+	id=873
+	name="STATE_873"
+
+	history={
+		owner = MUJ
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = AFG
+		add_core_of = MUJ
+
+	}
+
+	provinces={
+		1948 2017 2062 2101 4893 12871 
+	}
+	manpower=802060
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}
